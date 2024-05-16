@@ -1,6 +1,7 @@
 # animated_text
 
 Create text animation easy.
+<br />
 <img src="https://raw.githubusercontent.com/RathaIct/AnimatedText/main/animated_text.gif"/>
 
 ## Usage
