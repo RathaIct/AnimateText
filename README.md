@@ -1,6 +1,7 @@
 # animated_text
 
-Creact text animation easy
+Create text animation easy.
+<img src="https://raw.githubusercontent.com/RathaIct/AnimatedText/main/animated_text.gif"/>
 
 ## Usage
 
@@ -37,7 +38,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 ```
 
 ## Noted
@@ -46,7 +46,7 @@ AnimatedText allow you to use for only one line of text.
 
 ## អ្នកបង្កើត
 
-<img src="https://raw.githubusercontent.com/RathaIct/KhmerDateDart/main/ratha.jpeg" width="150" />
+<img src="https://raw.githubusercontent.com/RathaIct/AnimatedText/main/ratha.jpeg" width="150" />
 <hr />
 លោក ហ៊ិន រដ្ឋា
 Mr. Hin Ratha
