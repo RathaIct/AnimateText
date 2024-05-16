@@ -57,7 +57,7 @@ Mobile Apps Developer
 <br />
 បទពិសោធន៍ Flutter, ReactNative
 <br />
-ទូរស័ព្ទ 096 659 2250 <a href="tel:0966592250">📞</a>
+ទូរស័ព្ទ 096 659 2250
 
 ### គេហទំព័រ
 

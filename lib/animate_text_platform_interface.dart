@@ -1,6 +1,6 @@
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-import 'animated_text_method_channel.dart';
+import 'animate_text_method_channel.dart';
 
 abstract class AnimatedTextPlatform extends PlatformInterface {
   /// Constructs a AnimatedTextPlatform.

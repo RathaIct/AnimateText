@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:animated_text/animated_text.dart';
+import 'package:animate_text/animate_text.dart';
 
 void main() {
   runApp(const MyApp());
