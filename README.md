@@ -1,4 +1,4 @@
-# animated_text
+# animate_text
 
 Create text animation easy.
 <br />
@@ -8,7 +8,7 @@ Create text animation easy.
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:animated_text/animated_text.dart';
+import 'package:animate_text/animated_text.dart';
 
 void main() {
   runApp(const MyApp());

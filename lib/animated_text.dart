@@ -3,40 +3,40 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-class AnimatedText extends StatefulWidget {
+class AnimateText extends StatefulWidget {
   final String text;
   final TextStyle? style;
-  final AnimatedTextType type;
+  final AnimateTextType type;
   final int seconds;
   final bool withRotate;
   final bool withOpacity;
   final bool withScale;
   final bool withBlur;
   final Curve curve;
-  final AnimatedSpeed speed;
+  final AnimateTextSpeed speed;
   final bool isRepeat;
 
   final bool isScaleOut;
-  const AnimatedText(
+  const AnimateText(
     this.text, {
     super.key,
     this.style,
-    this.type = AnimatedTextType.bottomToTop,
+    this.type = AnimateTextType.bottomToTop,
     this.withRotate = false,
     this.withOpacity = false,
     this.isRepeat = true,
     this.seconds = 5,
     this.curve = Curves.fastOutSlowIn,
-    this.speed = AnimatedSpeed.medium,
+    this.speed = AnimateTextSpeed.medium,
     this.withScale = false,
     this.withBlur = false,
     this.isScaleOut = false,
   });
   @override
-  State<AnimatedText> createState() => _AnimatedTextState();
+  State<AnimateText> createState() => _AnimateTextState();
 }
 
-class _AnimatedTextState extends State<AnimatedText>
+class _AnimateTextState extends State<AnimateText>
     with TickerProviderStateMixin {
   late final List<AnimationController> _controllers;
   late final List<Animation<Offset>> _animations;
@@ -65,21 +65,21 @@ class _AnimatedTextState extends State<AnimatedText>
     _animations = _controllers.map((controller) {
       Offset begin = const Offset(0, 0);
       Offset end = Offset.zero;
-      if (widget.type == AnimatedTextType.topToBottom) {
+      if (widget.type == AnimateTextType.topToBottom) {
         begin = const Offset(0, -1.0);
-      } else if (widget.type == AnimatedTextType.leftToRight) {
+      } else if (widget.type == AnimateTextType.leftToRight) {
         begin = const Offset(0.5, 0);
-      } else if (widget.type == AnimatedTextType.bottomLeftToTopRight) {
+      } else if (widget.type == AnimateTextType.bottomLeftToTopRight) {
         begin = const Offset(-1.0, 1.0);
-      } else if (widget.type == AnimatedTextType.bottomRightToTopLeft) {
+      } else if (widget.type == AnimateTextType.bottomRightToTopLeft) {
         begin = const Offset(1.0, 1.0);
-      } else if (widget.type == AnimatedTextType.topLeftToBottomRight) {
+      } else if (widget.type == AnimateTextType.topLeftToBottomRight) {
         begin = const Offset(-1.0, -1.0);
-      } else if (widget.type == AnimatedTextType.topRightToBottomLeft) {
+      } else if (widget.type == AnimateTextType.topRightToBottomLeft) {
         begin = const Offset(1.0, -1.0);
-      } else if (widget.type == AnimatedTextType.bottomToTop) {
+      } else if (widget.type == AnimateTextType.bottomToTop) {
         begin = const Offset(0, 1.0);
-      } else if (widget.type == AnimatedTextType.none) {
+      } else if (widget.type == AnimateTextType.none) {
         begin = const Offset(0, 0);
       }
 
@@ -169,17 +169,17 @@ class _AnimatedTextState extends State<AnimatedText>
     }
   }
 
-  int getSpeed(AnimatedSpeed speed) {
+  int getSpeed(AnimateTextSpeed speed) {
     switch (speed) {
-      case AnimatedSpeed.verySlow:
+      case AnimateTextSpeed.verySlow:
         return 100;
-      case AnimatedSpeed.slow:
+      case AnimateTextSpeed.slow:
         return 80;
-      case AnimatedSpeed.medium:
+      case AnimateTextSpeed.medium:
         return 60;
-      case AnimatedSpeed.fast:
+      case AnimateTextSpeed.fast:
         return 30;
-      case AnimatedSpeed.veryFast:
+      case AnimateTextSpeed.veryFast:
         return 20;
       default:
         return 60;
@@ -247,7 +247,7 @@ class _AnimatedTextState extends State<AnimatedText>
   }
 }
 
-enum AnimatedSpeed {
+enum AnimateTextSpeed {
   verySlow,
   slow,
   medium,
@@ -255,7 +255,7 @@ enum AnimatedSpeed {
   veryFast,
 }
 
-enum AnimatedTextType {
+enum AnimateTextType {
   none,
   bottomToTop,
   topToBottom,

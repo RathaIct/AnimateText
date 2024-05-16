@@ -21,128 +21,128 @@ class MyApp extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                AnimatedText(
+                AnimateText(
                   "bottomToTop",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomLeftToTopRight",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.bottomLeftToTopRight,
+                  type: AnimateTextType.bottomLeftToTopRight,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomLeftToTopRight",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.bottomRightToTopLeft,
+                  type: AnimateTextType.bottomRightToTopLeft,
                 ),
-                AnimatedText(
+                AnimateText(
                   "topToBottom",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.topToBottom,
+                  type: AnimateTextType.topToBottom,
                 ),
-                AnimatedText(
+                AnimateText(
                   "topLeftToBottomRight",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.topLeftToBottomRight,
+                  type: AnimateTextType.topLeftToBottomRight,
                 ),
-                AnimatedText(
+                AnimateText(
                   "topRightToBottomLeft",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.topRightToBottomLeft,
+                  type: AnimateTextType.topRightToBottomLeft,
                 ),
-                AnimatedText(
+                AnimateText(
                   "leftToRight",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.leftToRight,
+                  type: AnimateTextType.leftToRight,
                 ),
-                AnimatedText(
+                AnimateText(
                   "none with opacity",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.none,
+                  type: AnimateTextType.none,
                   withOpacity: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "none with rotate",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.none,
+                  type: AnimateTextType.none,
                   withRotate: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "none with blur",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.none,
+                  type: AnimateTextType.none,
                   withBlur: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "none with scale",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.none,
+                  type: AnimateTextType.none,
                   withScale: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "topRightToBottomLeft with rotate",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.topRightToBottomLeft,
+                  type: AnimateTextType.topRightToBottomLeft,
                   withRotate: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with rotate with opacity",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                   withRotate: true,
                   withOpacity: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with rotate with opacity with blur",
                   style: TextStyle(fontSize: 20),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                   withRotate: true,
                   withOpacity: true,
                   withBlur: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with rotate with opacity with blur with scale",
                   style: TextStyle(fontSize: 16),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                   withRotate: true,
                   withOpacity: true,
                   withBlur: true,
                   withScale: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with opacity with blur with scale",
                   style: TextStyle(fontSize: 16),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                   withOpacity: true,
                   withBlur: true,
                   withScale: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with rotate with opacity speed very fast",
                   style: TextStyle(fontSize: 16),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                   withOpacity: true,
                   withRotate: true,
-                  speed: AnimatedSpeed.veryFast,
+                  speed: AnimateTextSpeed.veryFast,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with scale",
                   style: TextStyle(fontSize: 16),
-                  type: AnimatedTextType.bottomToTop,
+                  type: AnimateTextType.bottomToTop,
                   withScale: true,
                 ),
-                AnimatedText(
+                AnimateText(
                   "topLeftToBottomRight with opacity, 10s",
                   style: TextStyle(fontSize: 16),
-                  type: AnimatedTextType.topLeftToBottomRight,
+                  type: AnimateTextType.topLeftToBottomRight,
                   withOpacity: true,
                   seconds: 10,
                 ),
-                AnimatedText(
+                AnimateText(
                   "bottomToTop with scale not repeat",
                   style: TextStyle(fontSize: 16),
-                  type: AnimatedTextType.topToBottom,
+                  type: AnimateTextType.topToBottom,
                   withScale: true,
                   isRepeat: false,
                 ),
