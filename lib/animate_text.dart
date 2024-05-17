@@ -260,7 +260,7 @@ class _AnimateTextState extends State<AnimateText>
           ),
         ),
         Positioned(
-          bottom: 1,
+          bottom: -1,
           child: Row(
             mainAxisSize: MainAxisSize.min,
             children: List.generate(widget.text.length, (index) {

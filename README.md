@@ -6,7 +6,10 @@
 [AnimateText](https://www.pub.dev/packages/animate_text) helps you to animate text easy with scale, opacity, transform, blur.
 
 <hr />
-<p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RathaIct/AnimateText/main/thumbnail.gif"/>
+</p>
+<p align="center">
   <a href="https://flutter.io">  
     <img src="https://img.shields.io/badge/Platform-Flutter-yellow.svg"  
       alt="Platform" />  
@@ -33,10 +36,6 @@
   </a>
 </p>
 <br />
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RathaIct/AnimateText/main/animated_text.gif"/>
-</p>
-<br />
 
 ## Installing
 
@@ -46,7 +45,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  animate_text: ^0.0.4
+  animate_text: ^0.0.5
 ```
 
 ### 2. Install it
@@ -55,13 +54,13 @@ You can install packages from the command line:
 
 with `pub`:
 
-```
+```bash
 $ pub get
 ```
 
 with `Flutter`:
 
-```
+```bash
 $ flutter pub get
 ```
 
@@ -112,6 +111,11 @@ AnimateText(
   - `AnimateTextSpeed.medium` - speed animation run text each character speed medium
   - `AnimateTextSpeed.fast` - speed animation run text each character speed fast
   - `AnimateTextSpeed.veryFast` - speed animation run text each character speed very fast
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RathaIct/AnimateText/main/animated_text.gif"/>
+</p>
+<br />
 
 ### Noted
 
