@@ -45,7 +45,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  animate_text: ^0.0.5
+  animate_text: ^0.0.6
 ```
 
 ### 2. Install it

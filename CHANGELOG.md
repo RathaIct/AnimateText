@@ -1,3 +1,7 @@
+## [0.0.6]
+
+- Add screenshot
+
 ## [0.0.5]
 
 - Fix bug and improve code
