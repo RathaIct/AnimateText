@@ -45,7 +45,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  animate_text: ^0.0.8
+  animate_text: ^0.0.9
 ```
 
 ### 2. Install it
@@ -102,7 +102,7 @@ AnimateText(
 - `withRotate`- default `false` joint animation rotate if set `true`
 - `withScale`- default `false` joint animation scale if set `true`
 - `isScaleOut`- default `false` this option work with `withScale` option if it set to `true`
-- `seconds`- default `3` duration run animation
+- `seconds`- default `5` duration run animation
 - `isRepeat`- default `true` repeat animation if set `false` it will run only first time.
 - `curve`- The curve to use in the forward direction.
 - `speed`- default `AnimateTextSpeed.medium` other options:
