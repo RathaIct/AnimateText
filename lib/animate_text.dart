@@ -5,18 +5,57 @@ import 'package:flutter/material.dart';
 
 class AnimateText extends StatefulWidget {
   final String text;
+
+  /// Set your text style use TextStyle
   final TextStyle? style;
+
+  /// - `type` – default `AnimateTextType.bottomToTop` other options:
+  /// - `AnimateTextType.none` - no animation transform
+  /// - `AnimateTextType.bottomToTop` - animation transform text from bottom to top
+  /// - `AnimateTextType.topToBottom` - animation transform text from top to bottom
+  /// - `AnimateTextType.leftToRight` - animation transform text from left to right
+  /// - `AnimateTextType.bottomLeftToTopRight` - animation transform text from bottom left to top right
+  /// - `AnimateTextType.bottomRightToTopLeft` - animation transform text from bottom right to top left
+  /// - `AnimateTextType.topLeftToBottomRight` - animation transform text from top left to bottom right
+  /// - `AnimateTextType.topRightToBottomLeft` - animation transform text from top right to bottom left
   final AnimateTextType type;
+
+  /// - `seconds`- default `3` duration run animation
   final int seconds;
+
+  /// - `withRotate`- default `false` joint animation rotate if set `true`
   final bool withRotate;
+
+  /// - `withOpacity`- default `false` joint animation opacity if set `true`
   final bool withOpacity;
+
+  /// - `withScale`- default `false` joint animation scale if set `true`
   final bool withScale;
+
+  /// - `withBlur`- default `false` joint animation blur if set `true`
   final bool withBlur;
+
+  /// The curve to use in the forward direction.
   final Curve curve;
+
+  /// - `speed`- default `AnimateTextSpeed.medium` other options:
+  /// - `AnimateTextSpeed.verySlow` - speed animation run text each character speed very slow
+  /// - `AnimateTextSpeed.slow` - speed animation run text each character speed slow
+  /// - `AnimateTextSpeed.medium` - speed animation run text each character speed medium
+  /// - `AnimateTextSpeed.fast` - speed animation run text each character speed fast
+  /// - `AnimateTextSpeed.veryFast` - speed animation run text each character speed very fast
   final AnimateTextSpeed speed;
+
+  /// - `isRepeat`- default `true` repeat animation if set `false` it will run only first time.
   final bool isRepeat;
 
+  /// - `isScaleOut`- default `false` this option work with `withScale` option if it set to `true`
   final bool isScaleOut;
+
+  /// បង្កើតដោយលោក ហ៊ិន រដ្ឋា
+  ///
+  /// Develop by Hin Ratha
+  /// - Tel: 096 659 22 50
   const AnimateText(
     this.text, {
     super.key,
@@ -260,6 +299,11 @@ class _AnimateTextState extends State<AnimateText>
   }
 }
 
+/// - `AnimateTextSpeed.verySlow` - speed animation run text each character speed very slow
+/// - `AnimateTextSpeed.slow` - speed animation run text each character speed slow
+/// - `AnimateTextSpeed.medium` - speed animation run text each character speed medium
+/// - `AnimateTextSpeed.fast` - speed animation run text each character speed fast
+/// - `AnimateTextSpeed.veryFast` - speed animation run text each character speed very fast
 enum AnimateTextSpeed {
   verySlow,
   slow,
@@ -268,6 +312,14 @@ enum AnimateTextSpeed {
   veryFast,
 }
 
+/// - `AnimateTextType.none` - no animation transform
+/// - `AnimateTextType.bottomToTop` - animation transform text from bottom to top
+/// - `AnimateTextType.topToBottom` - animation transform text from top to bottom
+/// - `AnimateTextType.leftToRight` - animation transform text from left to right
+/// - `AnimateTextType.bottomLeftToTopRight` - animation transform text from bottom left to top right
+/// - `AnimateTextType.bottomRightToTopLeft` - animation transform text from bottom right to top left
+/// - `AnimateTextType.topLeftToBottomRight` - animation transform text from top left to bottom right
+/// - `AnimateTextType.topRightToBottomLeft` - animation transform text from top right to bottom left
 enum AnimateTextType {
   none,
   bottomToTop,

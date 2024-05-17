@@ -1,6 +1,6 @@
 name: animate_text
-description: "Create text animation easy with scale, opacity, transform, blur."
-version: 0.0.3
+description: "Helps you to animate text easy with scale, opacity, transform, blur"
+version: 0.0.4
 homepage: https://github.com/RathaIct/AnimateText
 maintainer: Hin Ratha (@RathaIct)
 

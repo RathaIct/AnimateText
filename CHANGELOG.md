@@ -1,3 +1,7 @@
+## [0.0.4]
+
+- Improve decription
+
 ## [0.0.3]
 
 - Fix bug
