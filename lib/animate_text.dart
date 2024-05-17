@@ -38,12 +38,12 @@ class AnimateText extends StatefulWidget {
 
 class _AnimateTextState extends State<AnimateText>
     with TickerProviderStateMixin {
-  late final List<AnimationController> _controllers;
-  late final List<Animation<Offset>> _animations;
-  late final List<Animation<double>> _rotateAnimations;
-  late final List<Animation<double>> _opacityAnimations;
-  late final List<Animation<double>> _scaleAnimations;
-  late final List<Animation<double>> _blurAnimations;
+  late List<AnimationController> _controllers;
+  late List<Animation<Offset>> _animations;
+  late List<Animation<double>> _rotateAnimations;
+  late List<Animation<double>> _opacityAnimations;
+  late List<Animation<double>> _scaleAnimations;
+  late List<Animation<double>> _blurAnimations;
   Timer? _timer;
 
   @override
@@ -51,6 +51,19 @@ class _AnimateTextState extends State<AnimateText>
     super.initState();
     _initializeAnimations();
     _startAnimationCycle();
+  }
+
+  @override
+  void didUpdateWidget(AnimateText oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (widget != oldWidget) {
+      for (final controller in _controllers) {
+        controller.dispose();
+      }
+      _timer?.cancel();
+      _initializeAnimations();
+      _startAnimationCycle();
+    }
   }
 
   void _initializeAnimations() {

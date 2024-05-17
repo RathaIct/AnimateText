@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 AnimateText(
-                  "bottomToTop",
+                  "Hello World!",
                   style: TextStyle(fontSize: 20),
                   type: AnimateTextType.bottomToTop,
                 ),

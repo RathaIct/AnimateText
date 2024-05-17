@@ -1,3 +1,11 @@
-## [0.0.2] - Improve description
+## [0.0.3]
 
-## [0.0.1​​] - First release plugin AnimatedText
+- Fix bug
+
+## [0.0.2]
+
+- Improve description
+
+## [0.0.1​​]
+
+- First release plugin AnimatedText

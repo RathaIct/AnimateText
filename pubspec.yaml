@@ -1,7 +1,8 @@
 name: animate_text
 description: "Create text animation easy with scale, opacity, transform, blur."
-version: 0.0.1
-homepage:
+version: 0.0.3
+homepage: https://github.com/RathaIct/AnimateText
+maintainer: Hin Ratha (@RathaIct)
 
 environment:
   sdk: ">=3.3.2 <4.0.0"
@@ -10,7 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
 
 dev_dependencies:
   flutter_test:
