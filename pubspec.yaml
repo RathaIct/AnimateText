@@ -1,6 +1,6 @@
 name: animate_text
 description: "Helps you to animate text easy with scale, opacity, transform, blur. ចលនាអក្សរ"
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/RathaIct/AnimateText
 repository: https://github.com/RathaIct/AnimateText
 issue_tracker: https://github.com/RathaIct/AnimateText/issues
@@ -8,7 +8,7 @@ maintainer: Hin Ratha (@RathaIct)
 topics: [animate-text, animation-text, animated]
 screenshots:
   - description: "AnimateText sample "
-    path: screenshot.webp
+    path: thumbnail.gif
   - description: "AnimateText sample two"
     path: animated_text.gif
 

@@ -1,3 +1,7 @@
+## [0.0.7]
+
+- Add new screenshot
+
 ## [0.0.6]
 
 - Add screenshot
