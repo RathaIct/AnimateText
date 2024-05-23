@@ -15,7 +15,7 @@
       alt="Platform" />  
   </a> 
    <a href="https://pub.dev/packages/animate_text">  
-    <img src="https://img.shields.io/pub/v/animated_text.svg"  
+    <img src="https://img.shields.io/pub/v/animate_text.svg"  
       alt="Pub Package" />  
   </a>
    <a href="https://opensource.org/licenses/MIT">  
@@ -45,7 +45,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  animate_text: ^0.0.9
+  animate_text: ^1.0.0
 ```
 
 ### 2. Install it
@@ -137,4 +137,4 @@ Mobile Apps Developer
 
 ### គេហទំព័រ
 
-<a href="https://rathadev.com"  target="_blank">Ratha Dev</a>
+<a href="https://rathadev.site"  target="_blank">Ratha Dev</a>

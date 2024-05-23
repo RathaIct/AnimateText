@@ -58,7 +58,6 @@ class AnimateText extends StatefulWidget {
   /// - Tel: 096 659 22 50
   const AnimateText(
     this.text, {
-    super.key,
     this.style,
     this.type = AnimateTextType.bottomToTop,
     this.withRotate = false,

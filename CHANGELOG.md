@@ -1,3 +1,7 @@
+## [1.0.0]
+
+- Support old dart version
+
 ## [0.0.9]
 
 - Add thumbnail and screenshot
